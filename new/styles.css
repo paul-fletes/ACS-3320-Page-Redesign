@@ -28,10 +28,62 @@ h2 {
   background-color: aliceblue;
 }
 
-#img-div {
+img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  background-color: aliceblue;
+  margin-bottom: 50px;
 }
 
 h3 {
   color: dodgerblue;
+  margin: 10px 0 10px 0;
+  border-top: solid dodgerblue 1px;
+}
+
+#tribute-info {
+  margin: 5px
+}
+
+#previous-club-title {
+  margin-top: 10px;
+}
+
+#stat-container {
+  list-style-type: none;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.stats {
+  padding: 5px;
+  background-color: aliceblue;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.stats:hover {
+  background-color: #558ABB;
+  color: aliceblue;
+}
+
+#community-engagement {
+  margin-bottom: 20px;
+}
+
+#laundry-pic {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.footer {
+  text-align: center;
 }
